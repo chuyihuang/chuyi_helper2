@@ -1,8 +1,8 @@
 # -*- encoding : utf-8 -*-
-require "chuyi_helper/version"
-require "chuyi_helper/railtie" if defined? Rails
+require "chuyi_helper2/version"
+require "chuyi_helper2/railtie" if defined? Rails
 
-module ChuyiHelper
+module ChuyiHelper2
 
     #畫面上方的訊息列
   def chuyi_message_box
